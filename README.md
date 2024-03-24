@@ -4,7 +4,7 @@ This is Robotic Car Model with two control modes: Autonomous Control Mode and Re
 
 <p align="center" width="100%">
     <img width="40%" src="https://github.com/kananahmadov2001/RoboticCar/assets/135070652/08e34bba-d932-44cd-874e-59fd0da262a7"> 
-    <img width="38%" src="https://github.com/kananahmadov2001/RoboticCar/assets/135070652/c47827ce-942e-4949-b0ef-e5d9bfabae6a"> 
+    <img width="39%" src="https://github.com/kananahmadov2001/RoboticCar/assets/135070652/c47827ce-942e-4949-b0ef-e5d9bfabae6a"> 
 </p>
 
 # Autonomous Control Mode
