@@ -7,6 +7,6 @@ This is Robotic Car Model with two control modes: Autonomous Control Mode and Re
     <img width="39.2%" src="https://github.com/kananahmadov2001/RoboticCar/assets/135070652/c47827ce-942e-4949-b0ef-e5d9bfabae6a"> 
 </p>
 
-# Autonomous Control Mode
+## Autonomous Control Mode
 
-# Remote Control Mode
+## Remote Control Mode
