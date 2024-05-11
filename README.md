@@ -12,10 +12,16 @@ direction. Or, if we push the button, the car switches modes to  Remote Control 
 
 
 <div align="center">
+    <h2 id="Header">Serial and Remote Control Communication</h2>
+</div>
+One of the most essential points of this project was establishing serial communication between the Arduino and a Java program running on the laptop. In Java, I established a protocol to send a variety of meaningful messages one byte at a time; then, I used this protocol as a way to control (or not control!) a robotic car from a Java program and send useful data about the car’s location back to Java.
+
+<div align="center">
     <h2 id="Header">Autonomous Control Mode</h2>
 </div>
-
+The Autonomous Control mode involves the robot continuously monitoring its surroundings using an ultrasonic distance sensor. When the sensor detects an obstacle within a certain range, the robot initiates a sequence to avoid the obstacle by backing up and then turning in a new direction. This behavior allows the robot to navigate its environment autonomously, reacting to obstacles in real-time to avoid collisions.
 
 <div align="center">
     <h2 id="Header">Remote Control Mode</h2>
 </div>
+In the Remote Control mode, I have implemented a non-blocking delta timing, a practical technique, to control the timing of the car’s various outgoing messages. This technique equips the car with the ability to process incoming messages and determine its distance from obstacles in a non-blocking manner, enhancing its overall efficiency. I also implemented an FSM with four states (idle, receiving, move, moveFor) for moving the car, then defined the commands for moving the car: f (forward), b (back), l (left), and r (right), whichever distance was sent from the incoming messages.
