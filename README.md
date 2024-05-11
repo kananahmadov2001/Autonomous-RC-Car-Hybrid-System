@@ -19,7 +19,7 @@ One of the most essential points of this project was establishing serial communi
 <div align="center">
     <h2 id="Header">Autonomous Control Mode</h2>
 </div>
-The Autonomous Control mode involves the car continuously monitoring its surroundings using an ultrasonic distance sensor. When the sensor detects an obstacle within a certain range, the robot initiates a sequence to avoid the obstacle by backing up and then turning in a new direction. This behavior allows the robot to navigate its environment autonomously, reacting to obstacles in real-time to avoid collisions.
+The Autonomous Control mode involves the car continuously monitoring its surroundings using an ultrasonic distance sensor. When the sensor detects an obstacle within a certain range, the car initiates a sequence to avoid the obstacle by backing up and then turning in a new direction. This behavior allows the car to navigate its environment autonomously, reacting to obstacles in real-time to avoid collisions.
 
 <div align="center">
     <h2 id="Header">Remote Control Mode</h2>
