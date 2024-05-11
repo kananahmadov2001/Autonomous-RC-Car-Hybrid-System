@@ -10,10 +10,6 @@ direction. Or, if we push the button, the car switches modes to  Remote Control 
     <img width="39.2%" src="https://github.com/kananahmadov2001/RoboticCar/assets/135070652/c47827ce-942e-4949-b0ef-e5d9bfabae6a"> 
 </p>
 
-<p align="center" width="100%">
-    <img width="40.5%" src="https://github.com/kananahmadov2001/Autonomous-RC-Car-Hybrid-System/assets/135070652/14453b34-cdd3-4ebf-b14f-bf9e59fae4bc"> 
-</p>
-
 <div align="center">
     <h2 id="Header">Serial and Remote Control Communication</h2>
 </div>
