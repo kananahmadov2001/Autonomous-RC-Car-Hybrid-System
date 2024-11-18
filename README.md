@@ -11,6 +11,12 @@ direction. Or, if we push the button, the car switches modes to  Remote Control 
     <img src="Autonomous-Car.png" alt="screenshot" width="400px" height="300px">
 </div>
 
+## Technologies/Tools Used
+* Hardware: Arduino, Ultrasonic Sensor, LEDs, Motors, Power Switch
+* Languages: Java, C++ (Arduino IDE)
+* Communication: Serial Communication between Arduino and Java
+* Techniques: Non-blocking delta timing, Finite State Machine (FSM)
+
 ## Serial and Remote Control Communication
 One of the most essential points of this project was establishing serial communication between the Arduino and a Java program running on the laptop. Serial communication provides a simple and efficient way to transmit data between the Arduino and a Java program running on the laptop over a physical connection; it enables real-time control and data exchange between the car and the computer. This communication allows the Java program to send control commands to the Arduino, such as directing the robot to move forward, backward, turn left, or turn right. Additionally, it enables Arduino to send back important information, such as sensor readings and status updates, which can be used by the Java program to monitor the car's environment and behavior. So, to achieve this, I established a protocol in Java to send a variety of meaningful messages one byte at a time. Then, I used this protocol to control (or not control!) a robotic car from a Java program and send useful data about the car's location back to Java.
 
